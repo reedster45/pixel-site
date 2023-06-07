@@ -20,7 +20,6 @@ body {
 
 
 #container {
-  /* background-color: gray; */
   color: whitesmoke;
   font-size: 16px;
   text-shadow: 10px 10px 10px black;
@@ -58,6 +57,10 @@ body {
   /* border: 1px solid red; */
   text-align: center;
   z-index: 2;
+}
+
+.img-shadow {
+  filter: drop-shadow(10px 10px 10px black);
 }
 
 
@@ -294,7 +297,8 @@ body {
   text-align: center;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 

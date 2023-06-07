@@ -56,52 +56,52 @@ const App = () => {
         <p className="skills-header">programming languages</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/java.png")} alt="Java"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/python.png")} alt="Python"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/c.png")} alt="C"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/c++.png")} alt="C++"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/c#.png")} alt="C#"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/swift.png")} alt="Swift"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/ruby.png")} alt="Ruby"/></div>
-            <div className="skills-grid-item"><img src={require("./imgs/programming-languages/haskell.png")} alt="Ruby"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/java.png")} alt="Java"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/python.png")} alt="Python"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/c.png")} alt="C"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/c++.png")} alt="C++"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/c#.png")} alt="C#"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/swift.png")} alt="Swift"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/ruby.png")} alt="Ruby"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/haskell.png")} alt="Ruby"/></div>
           </div>
         </div>
 
         <p className="skills-header">web development</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item">Javascript</div>
-            <div className="skills-grid-item">PHP</div>
-            <div className="skills-grid-item">HTML</div>
-            <div className="skills-grid-item">CSS</div>
-            <div className="skills-grid-item">React</div>
-            <div className="skills-grid-item">Angular</div>
-            <div className="skills-grid-item">Express</div>
-            <div className="skills-grid-item">Typescript</div>
+            <div className="skills-grid-item img-shadow">Javascript</div>
+            <div className="skills-grid-item img-shadow">PHP</div>
+            <div className="skills-grid-item img-shadow">HTML</div>
+            <div className="skills-grid-item img-shadow">CSS</div>
+            <div className="skills-grid-item img-shadow">React</div>
+            <div className="skills-grid-item img-shadow">Angular</div>
+            <div className="skills-grid-item img-shadow">Express</div>
+            <div className="skills-grid-item img-shadow">Typescript</div>
           </div>
         </div>
 
         <p className="skills-header">Database management</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item">SQL/mySQL</div>
-            <div className="skills-grid-item">MongoDB</div>
-            <div className="skills-grid-item">Oracle</div>
-            <div className="skills-grid-item">SQLite</div>
+            <div className="skills-grid-item img-shadow">SQL/mySQL</div>
+            <div className="skills-grid-item img-shadow">MongoDB</div>
+            <div className="skills-grid-item img-shadow">Oracle</div>
+            <div className="skills-grid-item img-shadow">SQLite</div>
           </div>
         </div>
 
         <p className="skills-header">tools</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item"><img className="github" src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
-            <div className="skills-grid-item">MS office</div>
-            <div className="skills-grid-item">Linux</div>
-            <div className="skills-grid-item">Bash/Shell</div>
-            <div className="skills-grid-item">QNX</div>
-            <div className="skills-grid-item">UNIX</div>
-            <div className="skills-grid-item">Mac OS</div>
-            <div className="skills-grid-item">Visual Studio</div>
+            <div className="skills-grid-item img-shadow"><img className="github" src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
+            <div className="skills-grid-item img-shadow">MS office</div>
+            <div className="skills-grid-item img-shadow">Linux</div>
+            <div className="skills-grid-item img-shadow">Bash/Shell</div>
+            <div className="skills-grid-item img-shadow">QNX</div>
+            <div className="skills-grid-item img-shadow">UNIX</div>
+            <div className="skills-grid-item img-shadow">Mac OS</div>
+            <div className="skills-grid-item img-shadow">Visual Studio</div>
           </div>
         </div>
       </div>
@@ -112,58 +112,58 @@ const App = () => {
         <div className="grid-container">
           <div className="grid">
             <div className="grid-item">
-              <p><a className="project-link" href="https://github.com/reedster45/pacemaker_simulator" target="_blank" rel="noopener noreferrer">
-                <img src={require("./imgs/files/chest-closed.png")} 
+              <a className="project-link" href="https://github.com/reedster45/pacemaker_simulator" target="_blank" rel="noopener noreferrer">
+                <img className="img-shadow" src={require("./imgs/files/chest-closed.png")} 
                 onMouseOver={e => (e.currentTarget.src = require("./imgs/files/chest-open.png"))} 
                 onMouseOut={e => (e.currentTarget.src = require("./imgs/files/chest-closed.png"))} 
                 alt="pacemaker simulator"/>
               </a>
-              <br></br>pacemaker simulator</p>
+              <p>pacemaker simulator</p>
             </div>
 
             <div className="grid-item">
-              <p><a className="project-link" href="https://github.com/reedster45/plant_game" target="_blank" rel="noopener noreferrer">
-                <img src={require("./imgs/files/chest-closed.png")} 
+              <a className="project-link" href="https://github.com/reedster45/plant_game" target="_blank" rel="noopener noreferrer">
+                <img className="img-shadow" src={require("./imgs/files/chest-closed.png")} 
                 onMouseOver={e => (e.currentTarget.src = require("./imgs/files/chest-open.png"))} 
                 onMouseOut={e => (e.currentTarget.src = require("./imgs/files/chest-closed.png"))} 
                 alt="unity rpg game"/>
               </a>
-              <br></br>Unity RPG Game</p>
+              <p>Unity RPG Game</p>
             </div>
 
             <div className="grid-item">
-              <p><a className="project-link" href="https://github.com/reedster45/retro_game_site" target="_blank" rel="noopener noreferrer">
-                <img src={require("./imgs/files/chest-closed.png")} 
+              <a className="project-link" href="https://github.com/reedster45/retro_game_site" target="_blank" rel="noopener noreferrer">
+                <img className="img-shadow" src={require("./imgs/files/chest-closed.png")} 
                 onMouseOver={e => (e.currentTarget.src = require("./imgs/files/chest-open.png"))} 
                 onMouseOut={e => (e.currentTarget.src = require("./imgs/files/chest-closed.png"))} 
                 alt="retro game site"/>
               </a>
-              <br></br>Retro Game Site</p>
+              <p>Retro Game Site</p>
             </div>
 
             <div className="grid-item">
-              <p><a className="project-link" href="https://github.com/reedster45/word_predictor_python" target="_blank" rel="noopener noreferrer">
-                <img src={require("./imgs/files/chest-closed.png")} 
+              <a className="project-link" href="https://github.com/reedster45/word_predictor_python" target="_blank" rel="noopener noreferrer">
+                <img className="img-shadow" src={require("./imgs/files/chest-closed.png")} 
                 onMouseOver={e => (e.currentTarget.src = require("./imgs/files/chest-open.png"))} 
                 onMouseOut={e => (e.currentTarget.src = require("./imgs/files/chest-closed.png"))} 
                 alt="word prediction"/>
               </a>
-              <br></br>Word Prediction</p>
+              <p>Word Prediction</p>
             </div>
 
             <div className="grid-item">
-              <p><a className="project-link" href="https://github.com/reedster45/stock_prediction_python" target="_blank" rel="noopener noreferrer">
-                <img src={require("./imgs/files/chest-closed.png")} 
+              <a className="project-link" href="https://github.com/reedster45/stock_prediction_python" target="_blank" rel="noopener noreferrer">
+                <img className="img-shadow" src={require("./imgs/files/chest-closed.png")} 
                 onMouseOver={e => (e.currentTarget.src = require("./imgs/files/chest-open.png"))} 
                 onMouseOut={e => (e.currentTarget.src = require("./imgs/files/chest-closed.png"))} 
                 alt="stock price prediction"/>
               </a>
-              <br></br>Stock Price Prediction</p>
+              <p>Stock Price Prediction</p>
             </div>
 
             <div className="grid-item">
-            <p><img src={require("./imgs/files/chest-closed.png")} alt="in progress..."/>
-            <br></br>More In Progress...</p>
+            <img className="img-shadow" src={require("./imgs/files/chest-closed.png")} alt="in progress..."/>
+            <p>More In Progress...</p>
             </div>
           </div>
         </div>
