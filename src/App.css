@@ -272,6 +272,9 @@ body {
   align-items: center;
 }
 
+.skill-resize {
+  transform: scale(0.8);
+}
 
 
 

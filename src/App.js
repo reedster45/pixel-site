@@ -37,14 +37,14 @@ const App = () => {
 
       <div className="center">
         <p className="heading">summary</p>
-        <p className="summary">I'm Reed Tyhuis, a results-driven computer science graduate with a strong passion htmlFor software development.
+        <p className="summary">I'm Reed Tyhuis, a results-driven computer science graduate with a strong passion for software development.
            Equipped with a solid foundation in programming languages like Java, Python, JavaScript, and C/C++, I possess 
            expertise in data structures, algorithms, and system design principles. With hands-on experience in web development 
            using HTML, CSS, React, Node.js, and RESTful APIs, I excel in creating dynamic and interactive websites. My proficiency 
-           extends to database management, utilizing SQL, Oracle, and MongoDB htmlFor efficient data storage and retrieval. Throughout 
+           extends to database management, utilizing SQL, Oracle, and MongoDB For efficient data storage and retrieval. Throughout 
            my career, I have demonstrated adaptability through diverse roles in customer service and IT support, while also 
            contributing to exciting projects such as developing a multiplayer game, creating dynamic websites, and implementing 
-           machine learning techniques htmlFor stock price prediction. With a commitment to excellence and a drive to contribute to 
+           machine learning techniques for stock price prediction. With a commitment to excellence and a drive to contribute to 
            cutting-edge projects, I am seeking software development or computer science roles where I can apply my expertise, create 
            innovative solutions, and make a significant impact in the field of software development.</p>
       </div>
@@ -70,14 +70,14 @@ const App = () => {
         <p className="skills-header">web development</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item img-shadow">Javascript</div>
-            <div className="skills-grid-item img-shadow">PHP</div>
-            <div className="skills-grid-item img-shadow">HTML</div>
-            <div className="skills-grid-item img-shadow">CSS</div>
-            <div className="skills-grid-item img-shadow">React</div>
-            <div className="skills-grid-item img-shadow">Angular</div>
-            <div className="skills-grid-item img-shadow">Express</div>
-            <div className="skills-grid-item img-shadow">Typescript</div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/web-development/javascript.png")} alt="JavaScript"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/web-development/php.png")} alt="PHP"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/web-development/html.png")} alt="HTML"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/web-development/css.png")} alt="CSS"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/web-development/react.png")} alt="React"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/web-development/angular.png")} alt="Angular"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/web-development/node.png")} alt="Node"/></div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/web-development/npm.png")} alt="NPM"/></div>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ const App = () => {
         <p className="skills-header">tools</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item img-shadow"><img className="github" src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
             <div className="skills-grid-item img-shadow">MS office</div>
             <div className="skills-grid-item img-shadow">Linux</div>
             <div className="skills-grid-item img-shadow">Bash/Shell</div>
