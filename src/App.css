@@ -192,6 +192,14 @@ body {
   justify-content: space-between;
 }
 
+#soft-dev-large {
+  display: block;
+}
+
+#soft-dev-small {
+  display: none;
+}
+
 
 
 
@@ -276,6 +284,10 @@ body {
   transform: scale(0.8);
 }
 
+.github-resize {
+  transform: scale(0.6);
+}
+
 
 
 
@@ -290,12 +302,12 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 200px); /* Adjust the number of columns and size */
+  grid-template-columns: repeat(3, 250px); /* Adjust the number of columns and size */
   grid-gap: 10px; /* Adjust the gap between squares */
 }
 
 .grid-item {
-  width: 200px;
+  width: 250px;
   height: 200px;
   text-align: center;
 
@@ -393,7 +405,7 @@ body {
 
 
 /* reactive sizes */
-@media (max-width: 768px) {
+@media (max-width: 1200px) { /* or 768px */
   .flex-container {
     flex-direction: column;
     align-items: center;
@@ -412,10 +424,22 @@ body {
   .grid {
     grid-template-columns: repeat(2, 200px); /* Adjust the number of columns and size */
   }
+  
+  .grid-item {
+    width: 200px;
+  }
 }
 
 
 @media (max-width: 480px) {
+  #soft-dev-large {
+    display: none;
+  }
+  
+  #soft-dev-small {
+    display: block;
+  }
+
   .skills-grid {
     grid-template-columns: repeat(1, 200px); /* Adjust the number of columns and size */
   }

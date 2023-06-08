@@ -31,7 +31,8 @@ const App = () => {
           </div>
 
         </div>
-        <p>- software developer -</p>
+        <p id="soft-dev-large">- software developer -</p>
+        <p id="soft-dev-small">software developer</p>
       </div>
       
 
@@ -84,9 +85,9 @@ const App = () => {
         <p className="skills-header">Database management</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item img-shadow">SQL/mySQL</div>
-            <div className="skills-grid-item img-shadow">MongoDB</div>
-            <div className="skills-grid-item img-shadow">Oracle</div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/mongodb.png")} alt="MongoDB"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/sql.png")} alt="SQL"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/oracle.png")} alt="Oracle"/></div>
             <div className="skills-grid-item img-shadow">SQLite</div>
           </div>
         </div>
@@ -94,7 +95,7 @@ const App = () => {
         <p className="skills-header">tools</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
             <div className="skills-grid-item img-shadow">MS office</div>
             <div className="skills-grid-item img-shadow">Linux</div>
             <div className="skills-grid-item img-shadow">Bash/Shell</div>
@@ -172,23 +173,23 @@ const App = () => {
       <div className="center">
         <p className="heading">contact</p>
           <form action="#" method="POST">
-            <div className="form-group">
+            <div className="form-group img-shadow">
               <label htmlFor="name">Name:</label>
               <input type="text" id="name" name="name" required/>
             </div>
-            <div className="form-group">
+            <div className="form-group img-shadow">
               <label htmlFor="email">Email:</label>
               <input type="email" id="email" name="email" required/>
             </div>
-            <div className="form-group">
+            <div className="form-group img-shadow">
               <label htmlFor="subject">Subject:</label>
               <input type="text" id="subject" name="subject"/>
             </div>
-            <div className="form-group">
+            <div className="form-group img-shadow">
               <label htmlFor="message">Message:</label>
               <textarea id="message" name="message" required></textarea>
             </div>
-            <div className="form-group">
+            <div className="form-group img-shadow">
               <button type="submit">send</button>
             </div>
           </form>
@@ -200,13 +201,13 @@ const App = () => {
 
             <div className="footer-grid-item">
               <a className="footer-link" href="https://www.linkedin.com/in/reed-tyhuis453477/" target="_blank" rel="noopener noreferrer">
-                <img src={require("./imgs/tools/linkedin.png")} alt="linkedin"/>
+                <img className="img-shadow" src={require("./imgs/tools/linkedin.png")} alt="linkedin"/>
               </a>
             </div>
 
             <div className="footer-grid-item">
               <a className="footer-link" href="https://github.com/reedster45" target="_blank" rel="noopener noreferrer">
-                <img className="github" src={require("./imgs/tools/github-dark.png")} alt="git/github"/>
+                <img className="github img-shadow" src={require("./imgs/tools/github-dark.png")} alt="git/github"/>
               </a>
             </div>
 
