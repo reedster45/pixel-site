@@ -57,14 +57,14 @@ const App = () => {
         <p className="skills-header">programming languages</p>
         <div className="skills-grid-container">
           <div className="skills-grid">
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/java.png")} alt="Java"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/python.png")} alt="Python"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/c.png")} alt="C"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/c++.png")} alt="C++"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/c#.png")} alt="C#"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/swift.png")} alt="Swift"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/ruby.png")} alt="Ruby"/></div>
-            <div className="skills-grid-item img-shadow"><img src={require("./imgs/programming-languages/haskell.png")} alt="Ruby"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/programming-languages/java.png")} alt="Java"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/python.png")} alt="Python"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/c.png")} alt="C"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/c++.png")} alt="C++"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/c#.png")} alt="C#"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/swift.png")} alt="Swift"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/ruby.png")} alt="Ruby"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/programming-languages/haskell.png")} alt="Ruby"/></div>
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const App = () => {
         <div className="skills-grid-container">
           <div className="skills-grid">
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/mongodb.png")} alt="MongoDB"/></div>
-            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/sql.png")} alt="SQL"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/database-management/sql.png")} alt="SQL"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/oracle.png")} alt="Oracle"/></div>
             <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/database-management/sqlite.png")} alt="SQLite"/></div>
           </div>
@@ -98,7 +98,7 @@ const App = () => {
             <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
             <div className="skills-grid-item img-shadow"><img src={require("./imgs/tools/windows.png")} alt="MS Office"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/linux.png")} alt="Linux"/></div>
-            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/bash.png")} alt="BASH"/></div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/tools/bash.png")} alt="BASH"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/qnx.png")} alt="QNX"/></div>
             <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/tools/unity.png")} alt="UNITY"/></div>
             <div className="skills-grid-item img-shadow"><img src={require("./imgs/tools/macos.png")} alt="Mac OS"/></div>
