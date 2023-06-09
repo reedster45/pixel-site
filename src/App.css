@@ -356,6 +356,13 @@ body {
   float: right;
 }
 
+#gotcha {
+  text-indent: -99999px; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  position: absolute;
+}
+
 
 
 

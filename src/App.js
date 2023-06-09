@@ -175,11 +175,11 @@ const App = () => {
           <form action="https://public.herotofu.com/v1/65a1ad40-06f6-11ee-b0a7-9f000c4c1540" method="post" acceptCharset="UTF-8">
             <div className="form-group img-shadow">
               <label htmlFor="name">Name:</label>
-              <input type="text" id="name" name="name" required/>
+              <input type="text" id="name" name="Name" required/>
             </div>
             <div className="form-group img-shadow">
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" required/>
+              <input type="email" id="email" name="Email" required/>
             </div>
             <div className="form-group img-shadow">
               <label htmlFor="subject">Subject:</label>
@@ -187,10 +187,13 @@ const App = () => {
             </div>
             <div className="form-group img-shadow">
               <label htmlFor="message">Message:</label>
-              <textarea id="message" name="_gotcha" required></textarea>
+              <textarea id="message" name="Message" required></textarea>
             </div>
             <div className="form-group img-shadow">
               <button type="submit">send</button>
+            </div>
+            <div id="gotcha" aria-hidden="true">
+              <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
             </div>
           </form>
       </div>
