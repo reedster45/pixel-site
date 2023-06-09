@@ -172,7 +172,7 @@ const App = () => {
 
       <div className="center">
         <p className="heading">contact</p>
-          <form action="#" method="POST">
+          <form action="https://public.herotofu.com/v1/65a1ad40-06f6-11ee-b0a7-9f000c4c1540" method="post" acceptCharset="UTF-8">
             <div className="form-group img-shadow">
               <label htmlFor="name">Name:</label>
               <input type="text" id="name" name="name" required/>
@@ -187,7 +187,7 @@ const App = () => {
             </div>
             <div className="form-group img-shadow">
               <label htmlFor="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
+              <textarea id="message" name="_gotcha" required></textarea>
             </div>
             <div className="form-group img-shadow">
               <button type="submit">send</button>
