@@ -10,8 +10,8 @@ const App = () => {
     <React.StrictMode>
       <Router>
         <Routes>
-          <Route index element={<Home />} />
           <Route path='/sent' element={<Thanks />} />
+          <Route index element={<Home />} />
         </Routes>
       </Router>
     </React.StrictMode>
