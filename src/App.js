@@ -88,7 +88,7 @@ const App = () => {
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/mongodb.png")} alt="MongoDB"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/sql.png")} alt="SQL"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/database-management/oracle.png")} alt="Oracle"/></div>
-            <div className="skills-grid-item img-shadow">SQLite</div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/database-management/sqlite.png")} alt="SQLite"/></div>
           </div>
         </div>
 
@@ -96,13 +96,13 @@ const App = () => {
         <div className="skills-grid-container">
           <div className="skills-grid">
             <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/tools/github-dark.png")} alt="git/github"/></div>
-            <div className="skills-grid-item img-shadow">MS office</div>
-            <div className="skills-grid-item img-shadow">Linux</div>
-            <div className="skills-grid-item img-shadow">Bash/Shell</div>
-            <div className="skills-grid-item img-shadow">QNX</div>
-            <div className="skills-grid-item img-shadow">UNIX</div>
-            <div className="skills-grid-item img-shadow">Mac OS</div>
-            <div className="skills-grid-item img-shadow">Visual Studio</div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/tools/windows.png")} alt="MS Office"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/linux.png")} alt="Linux"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/bash.png")} alt="BASH"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/qnx.png")} alt="QNX"/></div>
+            <div className="skills-grid-item img-shadow">UNITY</div>
+            <div className="skills-grid-item img-shadow"><img src={require("./imgs/tools/macos.png")} alt="Mac OS"/></div>
+            <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/visual-studio.png")} alt="Visual Studio"/></div>
           </div>
         </div>
       </div>
