@@ -100,7 +100,7 @@ const App = () => {
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/linux.png")} alt="Linux"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/bash.png")} alt="BASH"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/qnx.png")} alt="QNX"/></div>
-            <div className="skills-grid-item img-shadow">UNITY</div>
+            <div className="skills-grid-item img-shadow github-resize"><img src={require("./imgs/tools/unity.png")} alt="UNITY"/></div>
             <div className="skills-grid-item img-shadow"><img src={require("./imgs/tools/macos.png")} alt="Mac OS"/></div>
             <div className="skills-grid-item img-shadow skill-resize"><img src={require("./imgs/tools/visual-studio.png")} alt="Visual Studio"/></div>
           </div>
