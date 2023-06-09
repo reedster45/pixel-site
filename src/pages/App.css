@@ -17,9 +17,16 @@ body {
   background-position: left 18px bottom, left top 48px, right top 48px, left top;
 }
 
+/* thanks page */
+.thanks {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 30vh;
+}
 
 
-#container {
+.container {
   color: whitesmoke;
   font-size: 16px;
   text-shadow: 10px 10px 10px black;
